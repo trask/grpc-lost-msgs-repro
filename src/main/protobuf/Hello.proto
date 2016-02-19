@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "org.github.trask";
+
+service HelloService {
+  rpc Hello (HelloRequest) returns (HelloReply);
+}
+
+message HelloRequest {
+}
+
+message HelloReply {
+}
